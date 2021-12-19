@@ -21,7 +21,7 @@
       <a href="#Part-I">Part I : DNS configuration</a>
          <ul>
               <li><a href="#Installation">Install the Apache2 server</a></li>
-              <li><a href="#verification-the-configuration-files">Verify the configuration files and identify the role of each file</a></li>
+              <li><a href="#verification-the-configuration-files">Verify the configuration files and identify the role of each file:</a></li>
                   <ul> 
                       <li><a href="#role-of-each-file">apache2.conf, envvars, ports.conf, conf.d, sites-available, sites-enabled, mods-available and mods-enabled</a></li>
                   </ul>
