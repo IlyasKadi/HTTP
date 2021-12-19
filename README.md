@@ -20,13 +20,10 @@
     <li>
       <a href="#Part-I">Part I : DNS configuration</a>
          <ul>
-              <li><a href="#DNS-role-functions">DNS, role & functions</a></li>
               <li><a href="#different-DNS-servers">different DNS servers</a></li>
               <li><a href="#DNS-configuration-steps">DNS server’s configuration steps</a></li>
                   <ul> 
-                      <li><a href="#Configure-the-named">Configure the named.conf</a></li>
-                      <li><a href="#configure-zone-files">Create and configure zone files</a></li>
-                      <li><a href="#Verify-the-configuration">Verify the configuration</a></li>
+                      <li><a href="#role-of-each-file">role of each file : apache2.conf, envvars, ports.conf, conf.d, sites-available, sites-enabled, mods-available and mods-enabled</a></li>
                   </ul>
               <li><a href="#Configure-the-DNS-Client">Configure the DNS Client</a></li>
               <li><a href="#Configure-primary-and-secondary-DNS-servers">Configure primary and secondary DNS servers</a></li>
