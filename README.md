@@ -25,27 +25,52 @@
                   <ul> 
                       <li><a href="#role-of-each-file">apache2.conf, envvars, ports.conf, conf.d, sites-available, sites-enabled, mods-available and mods-enabled</a></li>
                   </ul>
-              <li><a href="#Configure-the-DNS-Client">Configure the DNS Client</a></li>
-              <li><a href="#Configure-primary-and-secondary-DNS-servers">Configure primary and secondary DNS servers</a></li>
-                  <ul> 
-                     <li><a href="#primary-DNS-server">primary DNS server </a></li>
-                     <li><a href="#secondary-DNS-server">secondary DNS server</a></li>
-                     <li><a href="#Test-the-configuration">Test the configuration by stopping the master DNS</a></li>
-                  </ul>
+              <li><a href="#Website-configuration">Website configuration.</a></li>       
            </ul>
         </li>
-        <li><a href="#Part-II">Part II : DDNS configuration</a>
-            <ul> 
-              <li><a href="#Configure-the-DDNS-server">Configure the DDNS server</a></li>
-                   <ul> 
-                     <li><a href="#Install-the-necessary-packages">Install the necessary packages</a></li>
-                     <li><a href="#Configure-the-forward-and-reverse-zones">Configure the forward and reverse zones</a></li>                          
-                   </ul>
+        <li><a href="#Part-II">Part II: HTTP and DNS</a>
+            <ul>      
               <li><a href="#Configure-the-client">Configure the client</a></li>
               <li><a href="#Verify-the-configuration">Verify the configuration</a></li>
             </ul>
            </li> 
-        <li><a href="#Part-III">Part III : DDNS and DMZ</a></li>
+        <li><a href="#Part-III">Part III: Secure a repository</a>
+             <ul>      
+              <li><a href="#Configure-the-client">Access filtering at users’ level</a></li>
+                 <ul>      
+                   <li><a href="#Configure-the-client">Modification the configuration</a></li>
+                   <li><a href="#Verify-the-configuration">Create accounts (Apache provides a tool to easily generate encrypted
+passwords)</a></li>
+                     <ul>
+                   <li><a href="#Configure-the-client">Create a password for the admin account</a></li>
+                   <li><a href="#Verify-the-configuration">Verify the encrypting of the username and the password</a></li>
+                     </ul>
+                 </ul>
+              <li><a href="#Verify-the-configuration">Test the access to the website, what do you notice?</a></li>
+              <li><a href="#Configure-the-client">Check if the password is encrypted at the level of transfer from the client
+to the server</a></li>
+              <li><a href="#Verify-the-configuration">What is the solution?</a></li>
+            </ul>
+        </li>
+        <li><a href="#Part-II">Part IV: Configuration with .htaccess</a>
+          <ul>      
+             <li><a href="#Configure-the-client">Configure Apache with .htaccess.</a></li>
+               <ul>      
+                <li><a href="#Configure-the-client">Authorize the modification</a></li>
+                <li><a href="#Verify-the-configuration">Create a file
+named “.htaccess” in/var/www/mywebsite2/.</a></li>
+                <li><a href="#Configure-the-client">Configure the .htaccess.</a></li>
+                <li><a href="#Verify-the-configuration">Create the digest-users file.</a></li>
+              </ul>
+             <li><a href="#Verify-the-configuration">Check if the password is encrypted</a></li>
+          </ul>
+        </li> 
+        <li><a href="#Part-II">Part IV: Personal Directories</a>
+            <ul>      
+              <li><a href="#Configure-the-client">Create a user</a></li>
+              <li><a href="#Verify-the-configuration">Each user must have a “public_html” folder in their home directory</a></li>
+            </ul>
+         </li> 
    </ol>
 
 <!-- Part-I -->
