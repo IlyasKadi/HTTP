@@ -79,17 +79,15 @@ named “.htaccess” in/var/www/mywebsite2/.</a></li>
 <!-- DNS role functions -->
 # Project description:
 
-  Apache is an open-source web server that powers a large number of websites
-around the world. Its official name is Apache HTTP Server and it is maintained
-and developed by the Apache Software Foundation.
-
-  Apache allows website owners to provide content on the web, hence the name
-“web server”. It is one of the oldest and most reliable web servers with a first
-version released over 25 years ago, in 1995.
-
-  When a user wants to visit a website, they type a domain name (or IP address)
-in the browser’s bar. Then the web server delivers the requested files by acting as
-a virtual delivery agent.
+>  Apache is an open-source web server that powers a large number of websites
+> around the world. Its official name is Apache HTTP Server and it is maintained
+> and developed by the Apache Software Foundation.
+>  Apache allows website owners to provide content on the web, hence the name
+> “web server”. It is one of the oldest and most reliable web servers with a first
+> version released over 25 years ago, in 1995.
+>  When a user wants to visit a website, they type a domain name (or IP address)
+> in the browser’s bar. Then the web server delivers the requested files by acting as
+> a virtual delivery agent.
 
  ### **What is DNS?**
 
