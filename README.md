@@ -120,6 +120,7 @@
 > a directory and in all its subdirectories (which do not have such a file inside). They
 > can be used to protect a directory with a password, to change the name or
 > extension of the index page, or to prohibit access to the directory.
+> 
 > The .htaccess file is placed in the directory in which it must act. It thus acts
 > on the permissions of the directory that contains it and of all its sub-directories.
 > Another .htaccess file can be placed in a subdirectory of a directory already
