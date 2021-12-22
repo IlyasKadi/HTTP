@@ -85,14 +85,16 @@
 > a virtual delivery agent.
 
 # Part-I
+
 ## Installation
 ## verification-the-configuration-files
-# role-of-each-file
+## role-of-each-file
 ## Website-configuration
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 # Part-II
+
 ## Configure-the-client
 ## Verify-the-configuration
 
@@ -100,17 +102,17 @@
 
 # Part-III
 
-# Access-filtering-at-users
-# Modification-the-configuration
-# Create-accounts
-# Create-a-password-for-the-admin-account
-# Verify-the-encrypting-of-the-username-and-the-password
-# Test-the-access-to-the-website
-# Check-if-the-password-is-encrypted
-# What-is-the-solution
+## Access-filtering-at-users
+## Modification-the-configuration
+## Create-accounts
+### Create-a-password-for-the-admin-account
+### Verify-the-encrypting-of-the-username-and-the-password
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-
+## Test-the-access-to-the-website
+## Check-if-the-password-is-encrypted
+## What-is-the-solution
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -127,19 +129,19 @@
 > controlled by an .htaccess file. The .htaccess file in the parent directory remains
 > in “activity” until the functionality is rewritten.
 
-# Configure-Apache-with__htaccess
-# Authorize-the-modification
-# Create-a-file-named-htaccess
-# Configure-the-htaccess
-# Create-the-digest_users-file
-# Check-if-the-password-is-encrypted
+## Configure-Apache-with__htaccess
+### Authorize-the-modification
+### Create-a-file-named-htaccess
+### Configure-the-htaccess
+### Create-the-digest_users-file
+## Check-if-the-password-is-encrypted
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 # Part-V
   
-# Create-a-user
-# Each-user-must-have-a--public_html--folder-in-their-home-directory  
+## Create-a-user
+## Each-user-must-have-a--public_html--folder-in-their-home-directory  
 <p align="center">
      <img src="images/part3.png">
    </p>
