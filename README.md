@@ -109,7 +109,7 @@ To verify that apache server working correctly in Kali Linux, open your browser,
 
 ## role-of-each-file
 
-In Kali Linux, the Apache configuration files are stored in the /etc/apache2 directory:
+In Kali Linux, the Apache configuration files are stored in the `/etc/apache2` directory:
 
 apache configuration files
 
