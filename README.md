@@ -137,6 +137,16 @@ configure them.
   * mods-enabled – a directory that holds symlinks to the files in /etc/apache2/mods-available.
 
 ## Website-configuration
+The first thing we're going to do is create two directories
+(mywebsite1 and mywebsite2) with the command: 
+
+```sh
+sudo mkdir -p /var/www/html/mywebsite1
+```
+
+```sh
+sudo mkdir -p /var/www/html/mywebsite2
+```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
