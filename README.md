@@ -125,9 +125,9 @@ Here is a brief description of the files in this directory:
 
   * ports.conf – a configuration file that houses the directives that determine the TCP ports Apache is listening on.
   
-  * conf.d :
+  * conf.d: This directory is used for controlling specific aspects of the Apache configuration. For example, it is often used to define SSL configuration and default security choices.
   
-   * sites-available – a directory that has configuration files for Apache Virtual Hosts. Virtual Hosts allow Apache2 to be configured for multiple sites that have separate configurations.
+  * sites-available – a directory that has configuration files for Apache Virtual Hosts. Virtual Hosts allow Apache2 to be configured for multiple sites that have separate configurations.
   
   * sites-enabled – a directory that contains symlinks to the /etc/apache2/sites-available directory.
   
