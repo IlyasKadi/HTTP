@@ -87,7 +87,26 @@
 # Part-I
 
 ## Installation
+```sh
+sudo apt install apache2 -y
+```
+That’s it, Apache is installed in your Kali Linux now you have to start the service using this command: 
+```sh
+sudo service apache2 start
+```
+Now you can check the status of the Apache service using this command:
+```sh
+sudo service apache2 status
+```
+
 ## verification-the-configuration-files
+
+To verify that apache server working correctly in Kali Linux, open your browser, type your server IP address or domain name `http://YOUR_IP_OR_DOMAIN/` and you will see the default Apache welcome page as shown below: 
+
+   <p align="center">
+     <img src="images/default-page.png">
+   </p>
+
 ## role-of-each-file
 ## Website-configuration
 
