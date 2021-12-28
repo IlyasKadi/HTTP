@@ -108,6 +108,34 @@ To verify that apache server working correctly in Kali Linux, open your browser,
    </p>
 
 ## role-of-each-file
+
+In Kali Linux, the Apache configuration files are stored in the /etc/apache2 directory:
+
+apache configuration files
+
+<p align="center">
+     <img src="images/apache2-directory.png">
+   </p>
+
+Here is a brief description of the files in this directory:
+
+  * apache2.conf : the main Apache2 configuration file that contains settings global to Apache.
+
+  * envvars : a file where Apache environment variables are set.
+
+  * ports.conf – a configuration file that houses the directives that determine the TCP ports Apache is listening on.
+  
+  * conf.d :
+  
+   * sites-available – a directory that has configuration files for Apache Virtual Hosts. Virtual Hosts allow Apache2 to be configured for multiple sites that have separate configurations.
+  
+  * sites-enabled – a directory that contains symlinks to the /etc/apache2/sites-available directory.
+  
+  * mods-available : a directory that contains configuration files to both load modules and 
+configure them.
+
+  * mods-enabled – a directory that holds symlinks to the files in /etc/apache2/mods-available.
+
 ## Website-configuration
 
 <p align="right">(<a href="#top">back to top</a>)</p>
