@@ -138,7 +138,7 @@ configure them.
 
 ## Website-configuration
 The first thing we're going to do is create two directories
-(mywebsite1 and mywebsite2) with the command: 
+(`mywebsite1` and `mywebsite2`) with the command: 
 
 ```sh
 sudo mkdir -p /var/www/html/mywebsite1
