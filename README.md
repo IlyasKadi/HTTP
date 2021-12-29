@@ -114,7 +114,7 @@ In Kali Linux, the Apache configuration files are stored in the `/etc/apache2` d
 apache configuration files
 
 <p align="center">
-     <img src="images/apache2-directory.png">
+     <img src="images/role-D.png">
    </p>
 
 Here is a brief description of the files in this directory:
@@ -275,10 +275,40 @@ at the level of transfer.
 
 ## Configure-Apache-with__htaccess
 ### Authorize-the-modification
+By default, the .htaccess file is not enabled.
+
+1. Open the default host configuration file by entering the following command in the terminal:
+
+```sh
+sudo nano /etc/apache2/sites-available/mywebsite1.conf
+```
+    
+2. Locate the section labeled <Directory /var/www>.
+In that section, change the AllowOverride None entry to all: *AllowOverride All*
+
+  <p align="center">
+        <img src="images/htaccess-override-all.png">
+    </p>
+
+3. Next, restart the Apache service:
+```sh
+sudo systemctl apache2 restart
+```
 ### Create-a-file-named-htaccess
+To create and open the .htaccess file for editing, enter:
+```sh
+sudo nano /var/www/mywebsite1.com/.htaccess
+```
 ### Configure-the-htaccess
+<p align="center">
+       <img src="images/create-htaccess.png">
+   </p>
 ### Create-the-digest_users-file
 ## Check-if-the-password-is-encrypted
+| login      | wireshark  | 
+|  --------      | ----       | 
+| ![Image ](images/d_login.png)  |![Image ](images/md5_.png) |
+   
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
