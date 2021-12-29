@@ -28,13 +28,13 @@
         </li>
         <li><a href="#Part-II">Part II: HTTP and DNS</a>
             <ul>      
-              <li><a href="#Registration-of-the-website-in-zone-files-of-the-DNS">Configure the client</a></li>
-              <li><a href="#Testing-the-access-by-ADDR-&-NS">Verify the configuration</a></li>
+              <li><a href="#Registration-of-the-website-in-zone-files-of-the-DNS">Reconfigure the zone-files (DNS)</a></li>
+              <li><a href="#Testing-the-access-by-ADDR-&-NS">Test the access (addr/ns)</a></li>
             </ul>
            </li> 
         <li><a href="#Part-III">Part III: Secure a repository</a>
              <ul>      
-              <li><a href="#Access-filtering-at-users-level">Access filtering at users’ level</a></li>
+              <li><a href="#Access-filtering-at-users-level">Access filtering at user's level</a></li>
                  <ul>      
                    <li><a href="#Modification-the-configuration">Modification the configuration</a></li>
                    <li><a href="#Create-accounts">Create accounts (Apache provides a tool to easily generate encrypted passwords)</a></li>
