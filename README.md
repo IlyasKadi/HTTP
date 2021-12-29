@@ -157,7 +157,7 @@ sudo nano  /var/www/mywebsite1/html.index
 ```sh
 sudo nano  /var/www/mywebsite2/html.index
 ```
-> we're going to focus on the first page only in the rest of the project
+> Note : we're going to focus on the first page only in the rest of the project
 
    <p align="center">
      <img src="images/ataman_html.png">
@@ -173,6 +173,23 @@ Where we put our settings for the good fonctionality of the manipulated website
    <p align="center">
      <img src="images/conffile_.png">
    </p>
+   
+And then we avtivate the vhost :
+```sh
+sudo a2ensite mywebsite1.conf
+```
+> Wich create a symlink from site-available to site-enabled
+
+In order to update the new configuration we simply reload the service :
+```sh
+sudo systemctl reload apache2
+```
+
+And finally we're going to test our conf :
+   <p align="center">
+     <img src="images/ataaman_me.png">
+   </p>
+   
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
