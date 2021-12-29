@@ -157,7 +157,7 @@ sudo nano  /var/www/mywebsite1/html.index
 ```sh
 sudo nano  /var/www/mywebsite2/html.index
 ```
--> we're going to focus on the first page only in the rest of the project
+> we're going to focus on the first page only in the rest of the project
 
    <p align="center">
      <img src="images/ataman_html.png">
