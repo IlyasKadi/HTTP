@@ -141,12 +141,39 @@ The first thing we're going to do is create two directories
 (`mywebsite1` and `mywebsite2`) with the command: 
 
 ```sh
-sudo mkdir -p /var/www/html/mywebsite1
+sudo mkdir  /var/www/mywebsite1
 ```
 
 ```sh
-sudo mkdir -p /var/www/html/mywebsite2
+sudo mkdir  /var/www/mywebsite2
 ```
+
+Then we're going to create two pages in each directory
+(`index.html`) with the command: 
+
+```sh
+sudo nano  /var/www/mywebsite1/html.index
+```
+```sh
+sudo nano  /var/www/mywebsite2/html.index
+```
+-> we're going to focus on the first page only in the rest of the project
+
+   <p align="center">
+     <img src="images/ataman_html.png">
+   </p>
+   
+
+After that we create the conf-file (`mywebsite1.conf`)
+   <p align="center">
+     <img src="images/conffile_in_site_av.png">
+   </p>
+   
+Where we put our settings for the good fonctionality of the manipulated website
+   <p align="center">
+     <img src="images/conffile_.png">
+   </p>
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
