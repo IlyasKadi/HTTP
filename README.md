@@ -214,9 +214,22 @@ We added new records for the website :
 
 ## Access-filtering-at-users-level
 ### Modification-the-configuration
-### Create-accounts
+   <p align="center">
+     <img src="images/user_pass.png">
+   </p>
+   
+### Create-accounts 
 #### Create-a-password-for-the-admin-account
+We are going to create the .htpasswd file with a new user (`oussama`)
+```sh
+sudo htpasswd -c /etc/apache2/.htpasswd oussama
+```
+then you will be asked to supply and confirm a password for the user.
+  
 #### Verify-the-encrypting-of-the-username-and-the-password
+   <p align="center">
+     <img src="images/pass_check.png">
+   </p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
