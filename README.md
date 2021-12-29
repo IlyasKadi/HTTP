@@ -303,8 +303,11 @@ sudo nano /var/www/mywebsite1.com/.htaccess
 <p align="center">
        <img src="images/create-htaccess.png">
    </p>
+   
 ### Create-the-digest_users-file
+
 ## Check-if-the-password-is-encrypted
+
 | login      | wireshark  | 
 |  --------      | ----       | 
 | ![Image ](images/d_login.png)  |![Image ](images/md5_.png) |
