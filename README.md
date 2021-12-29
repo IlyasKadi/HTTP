@@ -28,13 +28,13 @@
         </li>
         <li><a href="#Part-II">Part II: HTTP and DNS</a>
             <ul>      
-              <li><a href="#Configure-the-client">Configure the client</a></li>
-              <li><a href="#Verify-the-configuration">Verify the configuration</a></li>
+              <li><a href="#Registration-of-the-website-in-zone-files-of-the-DNS">Configure the client</a></li>
+              <li><a href="#Testing-the-access-by-ADDR-&-NS">Verify the configuration</a></li>
             </ul>
            </li> 
         <li><a href="#Part-III">Part III: Secure a repository</a>
              <ul>      
-              <li><a href="#Access-filtering-at-users">Access filtering at users’ level</a></li>
+              <li><a href="#Access-filtering-at-users-level">Access filtering at users’ level</a></li>
                  <ul>      
                    <li><a href="#Modification-the-configuration">Modification the configuration</a></li>
                    <li><a href="#Create-accounts">Create accounts (Apache provides a tool to easily generate encrypted passwords)</a></li>
@@ -196,14 +196,14 @@ And finally we're going to test our conf :
 
 # Part-II
 
-## Configure-the-client
-## Verify-the-configuration
+## Registration-of-the-website-in-zone-files-of-the-DNS
+## Testing-the-access-by-ADDR-&-NS
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 # Part-III
 
-## Access-filtering-at-users
+## Access-filtering-at-users-level
 ## Modification-the-configuration
 ## Create-accounts
 ### Create-a-password-for-the-admin-account
