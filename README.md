@@ -213,10 +213,10 @@ We added new records for the website :
 # Part-III
 
 ## Access-filtering-at-users-level
-## Modification-the-configuration
-## Create-accounts
-### Create-a-password-for-the-admin-account
-### Verify-the-encrypting-of-the-username-and-the-password
+### Modification-the-configuration
+### Create-accounts
+#### Create-a-password-for-the-admin-account
+#### Verify-the-encrypting-of-the-username-and-the-password
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
