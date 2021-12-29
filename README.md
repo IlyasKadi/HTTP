@@ -197,6 +197,13 @@ And finally we're going to test our conf :
 # Part-II
 
 ## Registration-of-the-website-in-zone-files-of-the-DNS
+We added new records for the website :
+   
+| dir_resol      | rev_resol  | 
+|  --------      | ----       | 
+| ![Image ](images/dns_direct_resCONF.png)  |![Image ](images/dns_rev_resCONF.png) |
+
+
 ## Testing-the-access-by-ADDR-&-NS
 
 <p align="right">(<a href="#top">back to top</a>)</p>
