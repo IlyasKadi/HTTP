@@ -314,7 +314,8 @@ Command to see Apache password file:
 ```sh
 sudo nano /etc/apache2/.htpasswd 
 ```
-<p align="center">
+
+ <p align="center">
        <img src="images/pass-htaccess.png">
    </p>
 
