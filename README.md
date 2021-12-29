@@ -332,6 +332,7 @@ sudo nano /etc/apache2/.htpasswd
   
 ## Create-a-user
 ## Each-user-must-have-a--public_html--folder-in-their-home-directory  
+
 <p align="center">
      <img src="images/part3.png">
    </p>
