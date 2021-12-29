@@ -187,7 +187,7 @@ sudo systemctl reload apache2
 
 And finally we're going to test our conf :
    <p align="center">
-     <img src="images/ataaman_me.png">
+     <img src="images/test_cl.jpg">
    </p>
    
 
