@@ -224,7 +224,7 @@ We are going to create the .htpasswd file with a new user (`oussama`)
 ```sh
 sudo htpasswd -c /etc/apache2/.htpasswd oussama
 ```
-then you will be asked to supply and confirm a password for the user.
+Then we will be asked to supply and confirm a password for that user.
   
 #### Verify-the-encrypting-of-the-username-and-the-password
    <p align="center">
@@ -234,8 +234,29 @@ then you will be asked to supply and confirm a password for the user.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Test-the-access-to-the-website
+Now the access is restricted :
+   <p align="center">
+     <img src="images/to_be_filled.png">
+   </p>
+If you do a mistake while typing your username and pass :
+   <p align="center">
+     <img src="images/user_failed_to join.png">
+   </p>
+   
+But if you got it right you will have access to the page
+<p align="center">
+     <img src="images/test_cl.jpg">
+   </p>
+      
 ## Check-if-the-password-is-encrypted
+We're going to ckeck if the password is encrypted at the level of transer : (using wireshark)
+    <p align="center">
+        <img src="images/sniffed_success.png">
+    </p>
+   
 ## What-is-the-solution
+Well, the solution is simply to find another way of authentification, that makes sure that the password is encrypted
+at the level of transfer.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
