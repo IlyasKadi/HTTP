@@ -305,10 +305,10 @@ sudo nano /var/www/mywebsite1.com/.htaccess
    </p>
    
 ### Create-the-digest_users-file
-For digest authentication we need to use a utility called htdigest, unlike with basic authentication where we used htpasswd. The application takes the file name, private and oussama as arguments, then prompts twice for the user’s password. The flag -c creates a new file, it overrides the existing one if exists.
+For digest authentication we need to use a utility called `htdigest`, unlike with basic authentication where we used htpasswd. The application takes the file name, `private` and `oussama` as arguments, then prompts twice for the user’s password. The flag `-c` creates a new file, it overrides the existing one if exists.
 
 ```sh
-htdigest -c /etc/apache2/.htpasswd private oussama
+htdigest -c /etc/apache2/.htpasswd private ataman
 ```
 <p align="center">
        <img src="images/pass-htaccess.png">
