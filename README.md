@@ -310,6 +310,10 @@ For digest authentication we need to use a utility called `htdigest`, unlike wit
 ```sh
 htdigest -c /etc/apache2/.htpasswd private ataman
 ```
+Command to see Apache password file:
+```sh
+sudo nano /etc/apache2/.htpasswd 
+```
 <p align="center">
        <img src="images/pass-htaccess.png">
    </p>
