@@ -119,7 +119,7 @@ apache configuration files
 
 Here is a brief description of the files in this directory:
 
-  * apache2.conf : the main Apache2 configuration file that contains settings global to Apache.
+  * **apache2.conf** : the main Apache2 configuration file that contains settings global to Apache.
 
   * envvars : a file where Apache environment variables are set.
 
@@ -305,7 +305,7 @@ sudo nano /var/www/mywebsite1.com/.htaccess
    </p>
    
 ### Create-the-digest_users-file
-For digest authentication we need to use a utility called `htdigest`, unlike with basic authentication where we used htpasswd. The application takes the file name, `private` and `oussama` as arguments, then prompts twice for the user’s password. The flag `-c` creates a new file, it overrides the existing one if exists.
+For digest authentication we need to use a utility called `htdigest`, unlike with basic authentication where we used htpasswd. The application takes the file name, `private` and `ataman` as arguments, then prompts twice for the user’s password. The flag `-c` creates a new file, it overrides the existing one if exists.
 
 ```sh
 htdigest -c /etc/apache2/.htpasswd private ataman
