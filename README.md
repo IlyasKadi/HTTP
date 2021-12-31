@@ -121,20 +121,20 @@ Here is a brief description of the files in this directory:
 
   * **apache2.conf** : the main Apache2 configuration file that contains settings global to Apache.
 
-  * envvars : a file where Apache environment variables are set.
+  * **envvars** : a file where Apache environment variables are set.
 
-  * ports.conf – a configuration file that houses the directives that determine the TCP ports Apache is listening on.
+  * **ports.conf** : a configuration file that houses the directives that determine the TCP ports Apache is listening on.
   
-  * conf.d: This directory is used for controlling specific aspects of the Apache configuration. For example, it is often used to define SSL configuration and default security choices.
+  * **conf.d** : This directory is used for controlling specific aspects of the Apache configuration. For example, it is often used to define SSL configuration and default security choices.
   
-  * sites-available – a directory that has configuration files for Apache Virtual Hosts. Virtual Hosts allow Apache2 to be configured for multiple sites that have separate configurations.
+  * **sites-available** : a directory that has configuration files for Apache Virtual Hosts. Virtual Hosts allow Apache2 to be configured for multiple sites that have separate configurations.
   
-  * sites-enabled – a directory that contains symlinks to the /etc/apache2/sites-available directory.
+  * **sites-enabled** : a directory that contains symlinks to the /etc/apache2/sites-available directory.
   
-  * mods-available : a directory that contains configuration files to both load modules and 
+  * **mods-available** : a directory that contains configuration files to both load modules and 
 configure them.
 
-  * mods-enabled – a directory that holds symlinks to the files in /etc/apache2/mods-available.
+  * **mods-enabled** : a directory that holds symlinks to the files in /etc/apache2/mods-available.
 
 ## Website-configuration
 The first thing we're going to do is create two directories
